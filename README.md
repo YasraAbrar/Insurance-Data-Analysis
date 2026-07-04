@@ -26,26 +26,32 @@ Integrated Power BI's AI Text Analytics within Power Query Editor to process cus
   * **Good:** Score >= 0.6
   * **Needs Improvement:** Score < 0.6
 
+### 5. Multi-Source Data Integration & Modeling
+* **Hybrid Data Architecture:** Built a unified relational data model by connecting Power BI directly to **Microsoft SQL Server** for large-scale policy and claims data, while seamlessly integrating external customer feedback data from an **Excel workbook**.
+
 ## 🛠️ Tools & Technologies Used
-* **Power BI Desktop & Service:** Data visualization, RLS implementation, and dashboard publishing.
-* **Power Query Editor:** Data cleaning, transformation, and conditional logic.
-* **AI Insights:** Text Analytics for sentiment scoring.
+* **Microsoft SQL Server:** Primary relational database used to query and import the core insurance policy, customer, and claims datasets.
+* **Power BI Desktop & Service:** Data visualization, data modeling across multiple sources, RLS implementation, and report publishing.
+* **Power Query Editor:** Data cleaning, transformation, conditional logic, and integrating SQL database tables with external Excel sheets.
+* **Microsoft Excel:** Secondary data source utilized for importing customer feedback records.
+* **AI Insights:** Text Analytics integrated within Power Query for automated sentiment scoring.
 
 ## 📊 Dashboard Previews
 
 *Note: The images below demonstrate the dashboard's filtering capabilities and Row-Level Security in action.*
 
 **1. Overall Dashboard View**
-![Overall Dashboard View](path/to/image(9).png)
+<img width="1482" height="1001" alt="image (9)" src="https://github.com/user-attachments/assets/ef9ecc2d-6a89-45c0-aa36-fb797324e97a" />
 
 **2. Demographic Filtering Applied (Female)**
-![Female Filter Applied](path/to/image(10).png)
+<img width="1477" height="990" alt="image (10)" src="https://github.com/user-attachments/assets/67e95b69-35a6-4ab5-a7da-c24932ae48b2" />
 
 **3. Single Policy Record Filtered**
-![Specific Policy Filtered](path/to/image(8).png)
+<img width="1485" height="996" alt="image (8)" src="https://github.com/user-attachments/assets/54019cb1-aa81-4494-9219-a19c3e15c636" />
 
 **4. Row-Level Security: Travel Role View**
-![Travel Role View](path/to/image(6).png)
+<img width="1467" height="993" alt="image (6)" src="https://github.com/user-attachments/assets/6e06cca6-aef3-440e-88ac-43fa80de9c65" />
 
 **5. Row-Level Security: Health Role View**
-![Health Role View](path/to/image(7).png)
+<img width="1476" height="992" alt="image (7)" src="https://github.com/user-attachments/assets/59893f96-21f4-429c-b9af-2a58036b63e7" />
+
